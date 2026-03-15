@@ -31,7 +31,7 @@ const TREND = [
 
 function Dashboard({ incidents, setPage }) {
   const [time, setTime] = useState(new Date().toLocaleTimeString("en-IN"))
-  const [date, setDate] = useState(new Date().toLocaleDateString("en-IN", { weekday:"long", year:"numeric", month:"long", day:"numeric" }))
+  const [date] = useState(new Date().toLocaleDateString("en-IN", { weekday:"long", year:"numeric", month:"long", day:"numeric" }))
 
   useEffect(() => {
     const t = setInterval(() => {

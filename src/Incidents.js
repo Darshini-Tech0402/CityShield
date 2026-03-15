@@ -2,7 +2,7 @@
 //  CityShield · Incidents.js  (Report Incidents)
 // ─────────────────────────────────────────────
 import React, { useState } from "react"
-import { getSeverityColor, getSeverityBg, isCyber } from "./utils"
+import { getSeverityColor, getSeverityBg } from "./utils"
 
 // ── Preset incident types per category ─────────
 const INCIDENT_TYPES = {

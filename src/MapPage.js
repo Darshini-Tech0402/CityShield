@@ -2,7 +2,7 @@
 //  CityShield · MapPage.js  (City Incident Map)
 //  Uses Google Maps API with incident markers
 // ─────────────────────────────────────────────
-import React, { useState, useRef, useEffect } from "react"
+import React, { useState } from "react"
 import { getSeverityColor } from "./utils"
 
 // ── Zone coordinates around Hyderabad ─────────

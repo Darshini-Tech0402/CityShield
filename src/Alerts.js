@@ -74,7 +74,6 @@ function AlertCard({ alert, acknowledge, setPage }) {
   }
 
   const isCrit = alert.severity === "Critical"
-  const isHigh = alert.severity === "High"
   const severityColor = getSeverityColor(alert.severity)
 
   return (
